@@ -43,7 +43,7 @@ AddEventHandler('esx_tartaruga:hasEnteredMarker', function(zone)
             CurrentActionData = {}
         end
 
-        --tartaruga process
+        --Tartaruga process
         if zone == 'TartarugaFarm' then
             if myJob ~= "police" then
                 CurrentAction     = 'tartaruga_harvest'

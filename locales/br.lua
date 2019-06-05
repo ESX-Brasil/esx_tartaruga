@@ -1,5 +1,5 @@
 Locales['br'] = {
-
+--tradução
     ['act_imp_police'] = 'ação ~r~impossível~s~, esta faltando ~b~policiais~s~: ',
     ['pickup_in_prog'] = '~y~Pickup em andamento~s~...',
     ['too_many_pouches'] = 'você tem muita carne de tartaruga',

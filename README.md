@@ -27,7 +27,7 @@
 
 # Legal
 ### License
-esx_tartaruga - Farm de tartarugas for ESX
+esx_tartaruga - Farm de tartarugas for ESX.
 
 Copyright (C) 2015-2018 ESX-Brasil
 

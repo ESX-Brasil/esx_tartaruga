@@ -4,7 +4,7 @@ Config.DrawDistance = 100.0
 Config.ZoneSize     = {x = 9.0, y = 9.0, z = 3.0}
 Config.MarkerColor  = {r = 100, g = 204, b = 100}
 Config.RequiredCopsTartaruga = 0
-Config.Locale = 'br'  --Traduções disponives br/fr/
+Config.Locale = 'br'  --Traduções disponives br/fr/.
 
 Config.TimeToFarm    = 3 * 1000
 Config.TimeToProcess = 5 * 1000

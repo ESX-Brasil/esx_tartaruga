@@ -25,7 +25,7 @@ end
 
 CountCops()
 
---tartaruga
+--Tartaruga
 local function HarvestTartaruga(source)
 
 	if CopsConnected < Config.RequiredCopsTartaruga then
@@ -98,7 +98,7 @@ local function TransformTartaruga(source)
 			else
 				xPlayer.removeInventoryItem('tartaruga', 5)
 				xPlayer.addInventoryItem('tartaruga_meat', 1)
-			
+
 				TransformTartaruga(source)
 			end
 
@@ -166,7 +166,7 @@ local function SellTartaruga(source)
 					xPlayer.addAccountMoney('black_money', 105)
                     TriggerClientEvent('esx:showNotification', source, _U('sold_one_tartaruga'))
                 end
-				
+
 				SellTartaruga(source)
 			end
 
@@ -202,11 +202,11 @@ RegisterServerEvent('esx_tartaruga:GetUserInventory')
 AddEventHandler('esx_tartaruga:GetUserInventory', function(currentZone)
 	local _source = source
     local xPlayer  = ESX.GetPlayerFromId(_source)
-    TriggerClientEvent('esx_tartaruga:ReturnInventory', 
+    TriggerClientEvent('esx_tartaruga:ReturnInventory',
     	_source,
-		xPlayer.getInventoryItem('tartaruga').count, 
+		xPlayer.getInventoryItem('tartaruga').count,
 		xPlayer.getInventoryItem('tartaruga_meat').count,
-		xPlayer.job.name, 
+		xPlayer.job.name,
 		currentZone
     )
 end)
