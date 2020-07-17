@@ -185,3 +185,5 @@ RegisterNetEvent('esx_tartaruga:freezePlayer')
 AddEventHandler('esx_tartaruga:freezePlayer', function(freeze)
     FreezeEntityPosition(GetPlayerPed(-1), freeze)
 end)
+
+--Que mais scripts acessem https://forum.esxbrasil.website/

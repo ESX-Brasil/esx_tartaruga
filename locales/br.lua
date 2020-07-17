@@ -14,3 +14,5 @@ Locales['br'] = {
     ['sold_one_tartaruga'] = 'você vendeu um saco de carne de tartaruga',
     ['exit_marker'] = 'Pressione ~INPUT_CONTEXT~ para sair da ~y~ação~s~',
 }
+
+--Que mais scripts acessem https://forum.esxbrasil.website/

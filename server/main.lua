@@ -41,8 +41,9 @@ local function HarvestTartaruga(source)
 			local xPlayer  = ESX.GetPlayerFromId(_source)
 
 			local tartaruga = xPlayer.getInventoryItem('tartaruga')
-
-			if tartaruga.limit ~= -1 and tartaruga.count >= tartaruga.limit then
+--weight
+			--if tartaruga.limit ~= -1 and tartaruga.count >= tartaruga.limit then
+			if tartaruga.weight ~= -1 and tartaruga.count >= tartaruga.weight then
 				TriggerClientEvent('esx:showNotification', source, _U('inv_full_tartaruga'))
 			else
 				xPlayer.addInventoryItem('tartaruga', 1)
@@ -210,3 +211,5 @@ AddEventHandler('esx_tartaruga:GetUserInventory', function(currentZone)
 		currentZone
     )
 end)
+
+--Que mais scripts acessem https://forum.esxbrasil.website/
